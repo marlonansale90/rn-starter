@@ -24,6 +24,10 @@ const HomeScreen = props => {
         <Text>Go to Counter Screen</Text>
       </TouchableOpacity>
 
+      <Button 
+      onPress={() => props.navigation.navigate("Color")}
+      title="Go to Color"/>
+
     </View>
   );
 };
